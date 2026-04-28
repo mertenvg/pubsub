@@ -1,6 +1,6 @@
 module github.com/mertenvg/pubsub
 
-go 1.21
+go 1.24.9
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.27.11
@@ -33,6 +33,7 @@ require (
 	github.com/prometheus/common v0.48.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
-	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
+	github.com/valkey-io/valkey-go v1.0.74 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
 )
